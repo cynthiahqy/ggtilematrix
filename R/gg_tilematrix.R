@@ -52,10 +52,11 @@ if (FALSE){
 #' @export
 #'
 #' @examples
+#' library(ggplot2)
 #' matrices$unnamed |>
 #'   gg_tilematrix.matrix()
 #'
-#' @importFrom ggplot2 aes
+#' @importFrom ggplot2 aes ggplot
 gg_tilematrix.matrix <- function(.matrix,
                                  .geom = list(
                                    geom_tile(color="pink",
